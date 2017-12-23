@@ -1,0 +1,36 @@
+body {
+    background-color: gainsboro;
+}
+
+footer {
+    text-align: center;
+}
+
+.container-fluid {
+    text-align: center;
+    height: 80vh;
+}
+.container-fluid p {
+    color: #282828;
+    position: absolute;
+    vertical-align: middle;
+    font-size: 250px;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-70%);
+    -webkit-transform: translate(-50%,-70%);
+    transform: translate(-50%,-70%)
+}
+
+.container-fluid .label {
+    position: relative;
+    width: auto;
+}
+
+.label h4 {
+    font-size: x-large;
+    padding: 5px;
+}
+
+.label p {
+    font-size: large;
+}
